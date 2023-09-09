@@ -1,4 +1,4 @@
-import { Header } from '../components'
+import { TreeBg, Header, BoxContent, NavBar } from '../components';
 
 export function Home() {
 
@@ -14,7 +14,11 @@ export function Home() {
 
     return (
         <div className={`${mobile} ${tablet} ${laptop} ${notebook} ${monitor} ${tv} ${desktop} ${scale} ${screen}`}>
+            <TreeBg />
             <Header />
+            <BoxContent>
+                <NavBar />
+            </BoxContent>
         </div>
     );
 };

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Logo, Contact } from './items';
-import { BoxTop } from './boxs'
-import { NavModal } from './navs'
+import { BoxTop } from './boxs';
+import { NavModal } from './navs';
 import { ButtonMenu, ButtonTop } from './buttons';
 import { House, WhatsappLogo, EnvelopeSimple } from "@phosphor-icons/react";
 
@@ -35,7 +35,7 @@ export function Header() {
         setIsModalOpen(false);
     };
 
-    const mobile = 'w-full h-[10%] top-0 fixed z-50 flex flex-row items-center justify-center  border-b border-purple-50/10 bg-bg';
+    const mobile = 'w-full h-[10%] top-0 fixed flex flex-row items-center justify-center border-b border-purple-50/10';
     const tablet = '';
     const laptop = '';
     const notebook = '';

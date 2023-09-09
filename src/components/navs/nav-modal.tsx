@@ -24,9 +24,9 @@ export function NavModal({ onClosed }: ButtonProps) {
         buttonHref = "/contact";
     };
 
-    const mobile = 'w-64 h-104 top-0 left-0 p-8 gap-4 absolute flex flex-col items-start justfy-start bg-purple-900 bg-cover rounded-lg shadow-2xl';
-    const tablet = 'tablet:w-96 tablet:h-172 tablet:p-10 tablet:gap-4';
-    const laptop = '';
+    const mobile = 'w-64 h-104 top-0 left-0 p-8 gap-4 absolute flex flex-col items-start justfy-start bg-treeBg bg-cover rounded-lg shadow-2xl';
+    const tablet = 'tablet:w-96 tablet:h-112 tablet:p-10 tablet:gap-6';
+    const laptop = 'laptop:hidden';
     const notebook = '';
     const desktop = '';
     const monitor = '';

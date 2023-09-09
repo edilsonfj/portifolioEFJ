@@ -39,10 +39,13 @@ export default {
         '92': '23rem',
         '100': '25rem',
         '104': '26rem',
-        '172': '43rem',
+        '112': '36rem',
       },
       colors: {
         'bg': '#06010B',
+      },
+      backgroundImage: {
+        'treeBg': "url('../src/assets/treeBg.png')",
       },
     },
   },
