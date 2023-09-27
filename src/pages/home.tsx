@@ -1,4 +1,4 @@
-import { TreeBg, Header, BoxContent, NavBar } from '../components';
+import { TreeBg, Header, BoxContent, NavBar, Description } from '../components';
 
 export function Home() {
 
@@ -18,6 +18,7 @@ export function Home() {
             <Header />
             <BoxContent>
                 <NavBar />
+                <Description />
             </BoxContent>
         </div>
     );

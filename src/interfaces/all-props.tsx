@@ -5,3 +5,8 @@ export interface ChildrenProps {
 export interface LinkProps {
     href: string;
 };
+
+export interface ColorProps {
+    color: string;
+};
+

@@ -44,7 +44,7 @@ export function ContactIcon({ children }: ChildrenProps) {
 
     const mobile = 'flex items-center justify-center text-2xl text-purple-700 hover:text-inherit focus:text-inherit';
     const tablet = 'tablet:text-4xl';
-    const laptop = 'laptop:text-sm';
+    const laptop = 'laptop:text-xs';
     const notebook = 'notebook:text-base';
     const desktop = 'desktop:text-lg';
     const monitor = 'monitor:text-xl';
@@ -64,7 +64,7 @@ export function ContactLabel({ children }: ChildrenProps) {
 
     const mobile = 'hidden';
     const tablet = '';
-    const laptop = 'laptop:flex laptop:font-medium laptop:text-3xs';
+    const laptop = 'laptop:flex laptop:font-medium laptop:text-2xs';
     const notebook = 'notebook:text-2xs';
     const desktop = 'desktop:text-xs';
     const monitor = 'monitor:text-sm';

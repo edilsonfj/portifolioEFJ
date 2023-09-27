@@ -1,8 +1,8 @@
 export function TreeBg() {
 
-    const mobile = 'w-[45%] h-screen fixed -z-50 right-0 hidden bg-treeBg bg-cover';
+    const mobile = 'w-[45%] h-screen hidden -z-50 right-0 bg-treeBg bg-cover';
     const tablet = '';
-    const laptop = 'laptop:flex';
+    const laptop = 'laptop:fixed laptop:flex';
     const notebook = '';
     const desktop = '';
     const monitor = '';

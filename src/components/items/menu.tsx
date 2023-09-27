@@ -25,7 +25,7 @@ export function MenuPage({ children, href, isActive }: ItemProps) {
 
     const mobile = 'w-full h-12 pl-8 flex items-center text-xl text-slate-200 text-shadow-md   hover:font-bold hover:text-purple-500 hover:bg-purple-50/5 hover:border-r-2 hover:border-purple-500 focus:font-bold focus:text-purple-500 focus:bg-purple-50/5 focus:border-r-2 focus:border-purple-500 transition duration-500 ease-in-out';
     const tablet = 'tablet:h-16 tablet:pl-10 tablet:text-2xl';
-    const laptop = 'laptop:h-8 laptop:pl-4 laptop:text-3xs';
+    const laptop = 'laptop:h-8 laptop:pl-4 laptop:text-2xs';
     const notebook = 'notebook:h-10 notebook:pl-5 notebook:text-2xs';
     const desktop = 'desktop:h-12 desktop:pl-6 desktop:text-xs';
     const monitor = 'monitor:h-14 monitor:pl-7 monitor:text-sm';

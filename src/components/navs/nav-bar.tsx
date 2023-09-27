@@ -8,12 +8,12 @@ export function NavBar() {
 
     const mobile = 'w-[10%] h-full hidden flex-col items-center justify-center border-r border-purple-50/10';
     const tablet = 'tablet:';
-    const laptop = 'laptop:flex laptop:pt-36';
-    const notebook = 'notebook:pt-40';
-    const desktop = 'desktop:pt-44';
-    const monitor = 'monitor:pt-48';
-    const tv = 'tv:pt-52';
-    const scale = 'scale:pt-56';
+    const laptop = 'laptop:flex laptop:pt-24';
+    const notebook = 'notebook:pt-30';
+    const desktop = 'desktop:pt-36';
+    const monitor = 'monitor:pt-42';
+    const tv = 'tv:pt-48';
+    const scale = 'scale:pt-54';
     const screen = 'screen:pt-60';
 
     return (
