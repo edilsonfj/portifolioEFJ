@@ -10,3 +10,7 @@ export interface ColorProps {
     color: string;
 };
 
+export interface BackgroundProps {
+    bg: string;
+};
+

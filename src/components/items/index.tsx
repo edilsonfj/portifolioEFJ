@@ -4,3 +4,7 @@ export { Contact } from './contact';
 export { Job } from './job';
 export { Name } from './name';
 export { Text } from './text';
+export { Profile } from './profile';
+export { Slider } from './slider';
+export { Card } from './card';
+export { Tag } from './tag';
